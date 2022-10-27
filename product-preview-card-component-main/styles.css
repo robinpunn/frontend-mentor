@@ -1,0 +1,53 @@
+/* Body */
+body {
+    margin: 0;
+}
+
+/* Container Div */
+.container {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F3EAE3;
+    display: flex;
+    text-align: center;
+}
+
+/* Image */
+.image img {
+    width: 300px;
+    height: 450px;
+    margin: 125px 0 125px 400px;
+    display: inline-block;
+}
+
+/* Text */
+.text {
+    width: 300px;
+    height: 450px;
+    margin: 125px 125px 125px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.top, .big, .description, .price {
+    padding:10px;
+}
+.top {
+    letter-spacing: 4px;
+}
+.big {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; text-align: center;
+    display: inline-block;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
