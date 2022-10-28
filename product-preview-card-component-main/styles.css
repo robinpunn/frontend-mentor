@@ -1,6 +1,7 @@
 /* Body */
 body {
     margin: 0;
+    text-align: center;
 }
 
 /* Container Div */
@@ -16,31 +17,83 @@ body {
 /* Image */
 .image img {
     width: 300px;
-    height: 450px;
     margin: 125px 0 125px 400px;
     display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 /* Text */
 .text {
     width: 300px;
-    height: 450px;
     margin: 125px 125px 125px 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: left;
+    overflow: hidden;
 }
 .top, .big, .description, .price {
     padding:10px;
 }
 .top {
-    letter-spacing: 4px;
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: grey;
+    padding-bottom: 20px;
 }
 .big {
-    font-family: Fraunces;
+    font-family: "Fraunces",serif;
     font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.description{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    color: grey;
+    padding: 20px 20px 0 15px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.price {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.now {
+    font-family: "Fraunces",serif;
     font-size: 30px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+.strike {
+    font-size: 12px;
+    color: grey;
+    padding-left: 40px;
+    padding-top: 30px;
+    text-decoration: line-through;
+}
+
+/* Button */
+.btn {
+    text-align: center;
+    padding-top: 0;
+}
+button {
+    width: 225px;
+    height: 45px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+svg {
+    padding-right: 10px;
+    padding-top: 2px;
 }
 
 /* Attribution */
