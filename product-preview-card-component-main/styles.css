@@ -1,106 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+:root {
+  --darkCyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
 /* Body */
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  overflow-y: hidden;
 }
 
 /* Container Div */
 .container {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #F3EAE3;
-    display: flex;
-    text-align: center;
+  margin: 2rem;
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Image */
 .image img {
-    width: 300px;
-    margin: 125px 0 125px 400px;
-    display: inline-block;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  width: 340px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 /* Text */
 .text {
-    width: 300px;
-    margin: 125px 125px 125px 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    overflow: hidden;
+  background-color: var(--white);
+  width: 340px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.5rem 1rem 0 1rem;
 }
-.top, .big, .description, .price {
-    padding:10px;
-}
+/* .top,
+.big,
+.description,
+.price {
+  padding: 10px;
+} */
 .top {
-    font-size: 12px;
-    letter-spacing: 6px;
-    color: grey;
-    padding-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 6px;
+  color: grey;
 }
 .big {
-    font-family: "Fraunces",serif;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 40px;
-    padding-top: 0;
-    padding-bottom: 0;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
 }
-.description{
-    font-family: "Montserrat", serif;
-    font-size: 14px;
-    color: grey;
-    padding: 20px 20px 0 15px;
-    word-spacing: 5px;
-    line-height: 25px;
+.description {
+  font-family: 'Montserrat', serif;
+  font-size: 0.9rem;
+  color: grey;
+  line-height: 1.5rem;
+  word-spacing: 0.25rem;
+  text-align: left;
 }
 .price {
-    display: flex;
-    padding-top: 0;
-    padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 .now {
-    font-family: "Fraunces",serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--darkCyan);
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 .strike {
-    font-size: 12px;
-    color: grey;
-    padding-left: 40px;
-    padding-top: 30px;
-    text-decoration: line-through;
+  font-size: 12px;
+  color: var(--darkGrayishBlue);
+  text-decoration: line-through;
+  margin: 1rem 0 2rem 1rem;
 }
 
 /* Button */
 .btn {
-    text-align: center;
-    padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 button {
-    width: 225px;
-    height: 45px;
-    background-color: hsl(158, 36%, 37%);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    display: inline-block;
+  width: 100%;
+  height: 45px;
+  background-color: var(--darkCyan);
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  line-height: 2.75rem;
+  text-align: center;
 }
 svg {
-    padding-right: 10px;
-    padding-top: 2px;
+  margin: 0.5rem 0.5rem auto auto;
 }
 
 /* Attribution */
-.attribution { 
-    font-size: 11px; text-align: center;
-    display: inline-block;
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: inline-block;
 }
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
