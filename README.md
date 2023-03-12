@@ -7,4 +7,8 @@ A collection of challenges from [Frontend Mentor](https://www.frontendmentor.io/
 
 ---
 
-### QR code component solution
+### QR code
+- [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-generator-WDqQHk8Yt)
+
+### Product preview
+- [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)

@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow-y: hidden;
 }
 
 .container {
@@ -29,7 +30,7 @@ body {
   width: 320px;
   height: 500px;
   background-color: var(--white);
-  margin: 5rem auto;
+  margin: 8rem auto;
   border-radius: 20px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding: 0;
