@@ -12,3 +12,6 @@ A collection of challenges from [Frontend Mentor](https://www.frontendmentor.io/
 
 ### Product preview
 - [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+
+### Results Summary
+- [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
