@@ -25,7 +25,11 @@
   box-sizing: border-box;
 }
 
-/* Body */
+.body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Main container */
 .container {
   display: flex;
   flex-direction: column;
@@ -34,20 +38,52 @@
   width: 100%;
 }
 
+/* Card container */
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
+/* Card text */
 .text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+/* Card circle*/
+.scores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    to top,
+    var(--lightSlateBlue),
+    var(--lightRoyalBlue)
+  );
+}
+/* Score number */
+.score {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--white);
+  margin: 0;
+}
+/* Score total*/
+.total {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--paleBlue);
+  margin: 0;
+  padding: 0;
+}
 
+/* Summary container */
 .summary {
   position: relative;
   width: 100%;
